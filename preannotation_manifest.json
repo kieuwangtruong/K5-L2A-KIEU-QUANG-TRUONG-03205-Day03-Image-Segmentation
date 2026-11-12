@@ -1,0 +1,497 @@
+{
+  "schema_version": "1.0",
+  "package_type": "CVAT_PREANNOTATION_ONLY",
+  "created_at": "2026-11-12T05:40:31.568641+00:00",
+  "total_tasks": 9,
+  "source_model": "SAM3",
+  "source_prediction_root": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/predictions_raw",
+  "human_review_required": true,
+  "packages": [
+    {
+      "task": "easy_semantic",
+      "filename": "preann_easy_semantic.zip",
+      "format": "semantic",
+      "path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/semantic/preann_easy_semantic.zip"
+    },
+    {
+      "task": "medium_instance",
+      "filename": "preann_medium_instance.zip",
+      "format": "instance",
+      "path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/coco/preann_medium_instance.zip"
+    },
+    {
+      "task": "hard_panoptic",
+      "filename": "preann_hard_panoptic.zip",
+      "format": "panoptic",
+      "path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/coco/preann_hard_panoptic.zip"
+    },
+    {
+      "task": "cp1_holes",
+      "filename": "preann_cp1_holes.zip",
+      "format": "instance",
+      "path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/coco/preann_cp1_holes.zip"
+    },
+    {
+      "task": "cp2_slice",
+      "filename": "preann_cp2_slice.zip",
+      "format": "instance",
+      "path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/coco/preann_cp2_slice.zip"
+    },
+    {
+      "task": "cp5_occlusion",
+      "filename": "preann_cp5_occlusion.zip",
+      "format": "instance",
+      "path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/coco/preann_cp5_occlusion.zip"
+    },
+    {
+      "task": "cp3_thin",
+      "filename": "preann_cp3_thin.zip",
+      "format": "semantic",
+      "path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/semantic/preann_cp3_thin.zip"
+    },
+    {
+      "task": "cp4_curb",
+      "filename": "preann_cp4_curb.zip",
+      "format": "semantic",
+      "path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/semantic/preann_cp4_curb.zip"
+    },
+    {
+      "task": "cp6_coverage",
+      "filename": "preann_cp6_coverage.zip",
+      "format": "semantic",
+      "path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/semantic/preann_cp6_coverage.zip"
+    }
+  ],
+  "validation": [
+    {
+      "task": "easy_semantic",
+      "format": "Segmentation mask 1.1",
+      "images": 3,
+      "status": "VALID"
+    },
+    {
+      "task": "medium_instance",
+      "format": "COCO 1.0",
+      "images": 3,
+      "annotations": 126,
+      "categories": 6,
+      "status": "VALID"
+    },
+    {
+      "task": "hard_panoptic",
+      "format": "COCO 1.0",
+      "images": 2,
+      "annotations": 108,
+      "categories": 12,
+      "status": "VALID"
+    },
+    {
+      "task": "cp1_holes",
+      "format": "COCO 1.0",
+      "images": 1,
+      "annotations": 6,
+      "categories": 6,
+      "status": "VALID"
+    },
+    {
+      "task": "cp2_slice",
+      "format": "COCO 1.0",
+      "images": 1,
+      "annotations": 21,
+      "categories": 6,
+      "status": "VALID"
+    },
+    {
+      "task": "cp5_occlusion",
+      "format": "COCO 1.0",
+      "images": 1,
+      "annotations": 87,
+      "categories": 6,
+      "status": "VALID"
+    },
+    {
+      "task": "cp3_thin",
+      "format": "Segmentation mask 1.1",
+      "images": 1,
+      "status": "VALID"
+    },
+    {
+      "task": "cp4_curb",
+      "format": "Segmentation mask 1.1",
+      "images": 1,
+      "status": "VALID"
+    },
+    {
+      "task": "cp6_coverage",
+      "format": "Segmentation mask 1.1",
+      "images": 1,
+      "status": "VALID"
+    }
+  ],
+  "reports": [
+    {
+      "task": "easy_semantic",
+      "format": "Segmentation mask 1.1",
+      "images": [
+        {
+          "image": "7ee6d192-89e2408b.jpg",
+          "height": 720,
+          "width": 1280,
+          "conflict_pixels": 0,
+          "unlabeled_pixels": 173378,
+          "claimed_pixels": 748222,
+          "final_class_pixels": {
+            "road": 305197,
+            "sidewalk": 0,
+            "building": 0,
+            "vegetation": 58191,
+            "sky": 384834
+          },
+          "classes": {
+            "road": {
+              "proposal_count": 1,
+              "candidate_pixels": 305197
+            },
+            "sidewalk": {
+              "proposal_count": 0,
+              "candidate_pixels": 0
+            },
+            "building": {
+              "proposal_count": 0,
+              "candidate_pixels": 0
+            },
+            "vegetation": {
+              "proposal_count": 30,
+              "candidate_pixels": 58191
+            },
+            "sky": {
+              "proposal_count": 1,
+              "candidate_pixels": 384834
+            }
+          }
+        },
+        {
+          "image": "817bca71-00000000.jpg",
+          "height": 720,
+          "width": 1280,
+          "conflict_pixels": 1524,
+          "unlabeled_pixels": 56665,
+          "claimed_pixels": 864935,
+          "final_class_pixels": {
+            "road": 225000,
+            "sidewalk": 44279,
+            "building": 144485,
+            "vegetation": 200365,
+            "sky": 250806
+          },
+          "classes": {
+            "road": {
+              "proposal_count": 1,
+              "candidate_pixels": 225000
+            },
+            "sidewalk": {
+              "proposal_count": 8,
+              "candidate_pixels": 44768
+            },
+            "building": {
+              "proposal_count": 5,
+              "candidate_pixels": 144841
+            },
+            "vegetation": {
+              "proposal_count": 35,
+              "candidate_pixels": 201044
+            },
+            "sky": {
+              "proposal_count": 1,
+              "candidate_pixels": 250806
+            }
+          }
+        },
+        {
+          "image": "81ae7cbb-6bc63a4a.jpg",
+          "height": 720,
+          "width": 1280,
+          "conflict_pixels": 9096,
+          "unlabeled_pixels": 68194,
+          "claimed_pixels": 853406,
+          "final_class_pixels": {
+            "road": 289623,
+            "sidewalk": 15908,
+            "building": 62872,
+            "vegetation": 199843,
+            "sky": 285160
+          },
+          "classes": {
+            "road": {
+              "proposal_count": 1,
+              "candidate_pixels": 289623
+            },
+            "sidewalk": {
+              "proposal_count": 3,
+              "candidate_pixels": 18211
+            },
+            "building": {
+              "proposal_count": 17,
+              "candidate_pixels": 65183
+            },
+            "vegetation": {
+              "proposal_count": 33,
+              "candidate_pixels": 203822
+            },
+            "sky": {
+              "proposal_count": 1,
+              "candidate_pixels": 285663
+            }
+          }
+        }
+      ],
+      "total_conflict_pixels": 10620,
+      "total_unlabeled_pixels": 298237,
+      "package_path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/semantic/preann_easy_semantic.zip",
+      "package_bytes": 47574
+    },
+    {
+      "task": "medium_instance",
+      "format": "COCO 1.0",
+      "images": 3,
+      "annotations": 126,
+      "category_count": 6,
+      "annotations_by_class": {
+        "person": 63,
+        "car": 53,
+        "motorcycle": 7,
+        "bus": 2,
+        "truck": 1
+      },
+      "selected_sources": {},
+      "package_path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/coco/preann_medium_instance.zip",
+      "package_bytes": 788733
+    },
+    {
+      "task": "hard_panoptic",
+      "format": "COCO 1.0",
+      "images": 2,
+      "annotations": 108,
+      "category_count": 12,
+      "annotations_by_class": {
+        "road": 2,
+        "sidewalk": 2,
+        "building": 2,
+        "vegetation": 2,
+        "sky": 2,
+        "person": 16,
+        "car": 63,
+        "bus": 4,
+        "motorcycle": 2,
+        "traffic light": 6,
+        "truck": 7
+      },
+      "selected_sources": {
+        "000000350023/road": "baseline",
+        "000000350023/sidewalk": "baseline",
+        "000000350023/building": "baseline",
+        "000000350023/vegetation": "baseline",
+        "000000350023/sky": "baseline",
+        "000000350023/person": "baseline",
+        "000000350023/car": "baseline",
+        "000000350023/bus": "baseline",
+        "000000350023/truck": "baseline",
+        "000000350023/motorcycle": "baseline",
+        "000000350023/bicycle": "baseline",
+        "000000350023/traffic light": "baseline",
+        "000000460147/road": "baseline",
+        "000000460147/sidewalk": "baseline",
+        "000000460147/building": "baseline",
+        "000000460147/vegetation": "baseline",
+        "000000460147/sky": "baseline",
+        "000000460147/person": "baseline",
+        "000000460147/car": "baseline",
+        "000000460147/bus": "baseline",
+        "000000460147/truck": "baseline",
+        "000000460147/motorcycle": "baseline",
+        "000000460147/bicycle": "baseline",
+        "000000460147/traffic light": "baseline"
+      },
+      "package_path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/coco/preann_hard_panoptic.zip",
+      "package_bytes": 319684
+    },
+    {
+      "task": "cp1_holes",
+      "format": "COCO 1.0",
+      "images": 1,
+      "annotations": 6,
+      "category_count": 6,
+      "annotations_by_class": {
+        "person": 2,
+        "car": 1,
+        "motorcycle": 1,
+        "truck": 2
+      },
+      "selected_sources": {},
+      "package_path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/coco/preann_cp1_holes.zip",
+      "package_bytes": 194344
+    },
+    {
+      "task": "cp2_slice",
+      "format": "COCO 1.0",
+      "images": 1,
+      "annotations": 21,
+      "category_count": 6,
+      "annotations_by_class": {
+        "person": 8,
+        "car": 12,
+        "bus": 1
+      },
+      "selected_sources": {},
+      "package_path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/coco/preann_cp2_slice.zip",
+      "package_bytes": 189700
+    },
+    {
+      "task": "cp5_occlusion",
+      "format": "COCO 1.0",
+      "images": 1,
+      "annotations": 87,
+      "category_count": 6,
+      "annotations_by_class": {
+        "person": 9,
+        "car": 69,
+        "motorcycle": 7,
+        "bus": 2
+      },
+      "selected_sources": {},
+      "package_path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/coco/preann_cp5_occlusion.zip",
+      "package_bytes": 223357
+    },
+    {
+      "task": "cp3_thin",
+      "format": "Segmentation mask 1.1",
+      "images": [
+        {
+          "image": "839f7736-abe28069.jpg",
+          "height": 720,
+          "width": 1280,
+          "conflict_pixels": 101,
+          "unlabeled_pixels": 370653,
+          "claimed_pixels": 550947,
+          "final_class_pixels": {
+            "pole": 20263,
+            "traffic sign": 41716,
+            "sky": 333284,
+            "road": 155684
+          },
+          "classes": {
+            "pole": {
+              "proposal_count": 24,
+              "candidate_pixels": 20352
+            },
+            "traffic sign": {
+              "proposal_count": 9,
+              "candidate_pixels": 41728
+            },
+            "sky": {
+              "proposal_count": 1,
+              "candidate_pixels": 333284
+            },
+            "road": {
+              "proposal_count": 2,
+              "candidate_pixels": 155684
+            }
+          }
+        }
+      ],
+      "total_conflict_pixels": 101,
+      "total_unlabeled_pixels": 370653,
+      "package_path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/semantic/preann_cp3_thin.zip",
+      "package_bytes": 10666
+    },
+    {
+      "task": "cp4_curb",
+      "format": "Segmentation mask 1.1",
+      "images": [
+        {
+          "image": "7d83710e-4697c3b2.jpg",
+          "height": 720,
+          "width": 1280,
+          "conflict_pixels": 0,
+          "unlabeled_pixels": 631962,
+          "claimed_pixels": 289638,
+          "final_class_pixels": {
+            "road": 131567,
+            "sidewalk": 158071
+          },
+          "classes": {
+            "road": {
+              "proposal_count": 1,
+              "candidate_pixels": 131567
+            },
+            "sidewalk": {
+              "proposal_count": 3,
+              "candidate_pixels": 158071
+            }
+          }
+        }
+      ],
+      "total_conflict_pixels": 0,
+      "total_unlabeled_pixels": 631962,
+      "package_path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/semantic/preann_cp4_curb.zip",
+      "package_bytes": 9514
+    },
+    {
+      "task": "cp6_coverage",
+      "format": "Segmentation mask 1.1",
+      "images": [
+        {
+          "image": "7daa6479-67988f3f.jpg",
+          "height": 720,
+          "width": 1280,
+          "conflict_pixels": 2399,
+          "unlabeled_pixels": 329264,
+          "claimed_pixels": 592336,
+          "final_class_pixels": {
+            "road": 110068,
+            "sidewalk": 148525,
+            "building": 297976,
+            "vegetation": 0,
+            "sky": 5554,
+            "car": 24389,
+            "person": 5824
+          },
+          "classes": {
+            "road": {
+              "proposal_count": 2,
+              "candidate_pixels": 110073
+            },
+            "sidewalk": {
+              "proposal_count": 1,
+              "candidate_pixels": 148531
+            },
+            "building": {
+              "proposal_count": 11,
+              "candidate_pixels": 298435
+            },
+            "vegetation": {
+              "proposal_count": 0,
+              "candidate_pixels": 0
+            },
+            "sky": {
+              "proposal_count": 1,
+              "candidate_pixels": 5603
+            },
+            "car": {
+              "proposal_count": 12,
+              "candidate_pixels": 26007
+            },
+            "person": {
+              "proposal_count": 6,
+              "candidate_pixels": 6086
+            }
+          }
+        }
+      ],
+      "total_conflict_pixels": 2399,
+      "total_unlabeled_pixels": 329264,
+      "package_path": "/content/drive/MyDrive/AI_in_Action/K5-L2A-KIEU-QUANG-TRUONG-03205-Day03-Image-Segmentation/sam3_master_output/cvat_preannotation_v1/semantic/preann_cp6_coverage.zip",
+      "package_bytes": 16102
+    }
+  ]
+}

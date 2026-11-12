@@ -1,0 +1,23 @@
+
+SAM3 CVAT PRE-ANNOTATION BUNDLE
+================================
+
+This bundle contains 9 task-level ZIP archives.
+
+IMPORTANT:
+- These are pre-annotation drafts, not final submissions.
+- Import each task ZIP into the existing matching CVAT task.
+- Do not use "Import dataset" because that creates new tasks.
+- Use the task action "Upload annotations".
+- Verify task labels exactly match classes.json.
+- Upload annotations replaces existing annotations.
+- Review and correct all imported masks in CVAT.
+- Save the corrected annotations.
+- Export the FINAL ZIP from CVAT using the required format.
+- Do not submit these pre-annotation ZIPs directly.
+
+Formats:
+- Semantic tasks: Segmentation mask 1.1
+- Instance and panoptic tasks: COCO 1.0
+
+Raw SAM3 predictions remain in predictions_raw/.
